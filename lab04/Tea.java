@@ -1,4 +1,4 @@
-abstract class Tea extends offering{
+abstract class Tea extends Offering{
 int getPrice(){
 return 25 ;}
 String getName(){

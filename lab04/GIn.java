@@ -1,10 +1,10 @@
 class Gin extends Decorator{
-Gin(offering offering)
-this.offering=offering;
+Gin(Offering Offering)
+this.Offering=Offering;
 }
 String getName(){
-return offering.getName() + "With Gin";
+return Offering.getName() + "With Gin";
 }
 int getPrice(){
-return offering.getPrice() + 35;
+return Offering.getPrice() + 35;
 }

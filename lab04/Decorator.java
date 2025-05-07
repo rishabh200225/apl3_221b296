@@ -1,3 +1,3 @@
-abstract class Decorator extends offering{
+abstract class Decorator extends Offering{
 offering offering;
 }
